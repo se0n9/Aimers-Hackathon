@@ -46,7 +46,8 @@
 ### **최종 스코어 산식**
 최종 점수는 성능과 속도를 5:5 비율로 반영합니다.
 
-    $$Score = \max(0.5 \times PerfNorm_{model} + 0.5 \times SpeedNorm_{model}, 0)$$
+    <img width="1166" height="84" alt="image" src="https://github.com/user-attachments/assets/74c080c1-b220-4ff2-8d7b-1f3d6ab66636" />
+
 
 * **성능 ($PerfNorm$):** 기본 모델 대비 성능 유지 비율
 * **속도 ($SpeedNorm$):** 기본 모델 대비 토큰당 추론 시간 감소 비율
@@ -58,7 +59,6 @@
 
 ## 📂 3. 프로젝트 구조 (Directory Structure)
 
-    ```
     2026_AIMERS/
     ├── open/
     │   ├── base_model/   # 원본 EXAONE 모델 (수동 다운로드 필요)
@@ -67,7 +67,6 @@
     ├── results/          # 실험 히스토리 (성능 결과 저장)
     ├── requirement.txt   # 패키지 의존성
     └── README.md
-    ```
 
 ## 🤝 4. 협업 규칙
 1. (Collaboration)브랜치 전략: 개별 실험은 feature/기법명-이름 브랜치에서 진행합니다.
