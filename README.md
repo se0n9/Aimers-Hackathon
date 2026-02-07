@@ -58,7 +58,7 @@
 
 ## 📂 3. 프로젝트 구조 (Directory Structure)
 
-    ```Plaintext
+    ```
     2026_AIMERS/
     ├── open/
     │   ├── base_model/   # 원본 EXAONE 모델 (수동 다운로드 필요)
