@@ -46,7 +46,7 @@
 ### **최종 스코어 산식**
 최종 점수는 성능과 속도를 5:5 비율로 반영합니다.
 
-    <img width="1166" height="84" alt="image" src="https://github.com/user-attachments/assets/74c080c1-b220-4ff2-8d7b-1f3d6ab66636" />
+<img width="1166" height="84" alt="image" src="https://github.com/user-attachments/assets/74c080c1-b220-4ff2-8d7b-1f3d6ab66636" />
 
 
 * **성능 ($PerfNorm$):** 기본 모델 대비 성능 유지 비율
