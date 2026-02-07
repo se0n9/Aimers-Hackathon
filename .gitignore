@@ -1,0 +1,27 @@
+# === Python ===
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# === Model Data (Local Only) ===
+# 모델 파일은 용량이 커서 GitHub에 올리지 않습니다.
+open/base_model/
+open/model/
+results/**/baseline_submit.zip
+
+# === Submission Files ===
+*.zip
+*.tar.gz
+
+# === OS Specific ===
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+
+# === Development ===
+.python-version
+.vscode/
+.idea/
+memo.txt
